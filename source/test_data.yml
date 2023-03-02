@@ -1,0 +1,11 @@
+test_auth:
+  #客户号、身份证号、账户号、账户名、手机号、期望结果、期望返回码、期望返回信息
+  #custNo、certNo、acctNo、acctName、phone、expect_result、expect_code、expect_message
+    [
+      { 'custNo': '20230112001', 'certNo': '513022199609261111', 'acctNo': '6228480468693141177', 'acctName': '吴彦祖',
+      'phone': '18482134818', 'expect_result': '01', 'expect_code': '0000', 'expect_message': '鉴权成功' },
+      { 'custNo': '20230112001', 'certNo': '513022199609261111', 'acctNo': '6228480468693141177', 'acctName': '吴彦祖',
+      'phone': '18482134818', 'expect_result': '01', 'expect_code': '0000', 'expect_message': '鉴权成功' }
+    ]
+
+

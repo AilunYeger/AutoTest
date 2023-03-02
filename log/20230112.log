@@ -1,0 +1,84 @@
+[2023-01-12 15:48:17,137][sourceLoad.py 19][INFO]: 加载E:\pythonProjects\pytestPro\config\setting.ini文件..........
+[2023-01-12 15:48:17,138][sourceLoad.py 22][INFO]: E:\pythonProjects\pytestPro\config\setting.ini文件加载成功..........
+[2023-01-12 15:48:17,139][sourceLoad.py 40][INFO]: 加载E:\pythonProjects\pytestPro\source\test_data.yml文件..........
+[2023-01-12 15:48:17,141][sourceLoad.py 43][INFO]: E:\pythonProjects\pytestPro\source\test_data.yml文件加载成功..........
+[2023-01-12 15:48:17,144][test_01_auth.py 10][INFO]: *************** 开始执行用例 ***************
+[2023-01-12 15:48:17,144][sourceLoad.py 27][INFO]: 加载E:\pythonProjects\pytestPro\config\json\auth.json文件..........
+[2023-01-12 15:48:17,155][sourceLoad.py 30][INFO]: E:\pythonProjects\pytestPro\config\json\auth.json文件加载成功..........
+[2023-01-12 15:48:17,156][sourceLoad.py 31][INFO]: 替换指定参数..........
+[2023-01-12 15:48:17,157][httpRequest.py 22][INFO]: 接口请求地址 ==>> http://172.16.1.84:10080/pay/auth
+[2023-01-12 15:48:17,157][httpRequest.py 23][INFO]: 接口请求方式 ==>> POST
+[2023-01-12 15:48:17,158][httpRequest.py 25][INFO]: 接口请求头 ==>> {
+    "bankNo": "00000100",
+    "Content-Type": "application/json",
+    "clientTranNo": "1673509697139",
+    "globalTranNo": "1673509697139"
+}
+[2023-01-12 15:48:17,160][httpRequest.py 26][INFO]: 接口请求 params 参数 ==>> null
+[2023-01-12 15:48:17,161][httpRequest.py 27][INFO]: 接口请求体 data 参数 ==>> null
+[2023-01-12 15:48:17,161][httpRequest.py 28][INFO]: 接口请求体 json 参数 ==>> {
+    "tranNo": "1673509697139",
+    "verifyType": "FOURTH",
+    "certType": "ID_CARD",
+    "certNo": "513022199609261111",
+    "acctType": "DEBIT",
+    "acctNo": "6228480468693141177",
+    "acctName": "吴彦祖",
+    "phone": "18482134818",
+    "acctOpBankCode": null,
+    "cvv2": null,
+    "remark": null,
+    "custNo": "20230112001",
+    "productId": null,
+    "oneLevelChannel": null,
+    "protocolVersion": null,
+    "protocolNo": null,
+    "appType": null,
+    "appName": null,
+    "IpType": null,
+    "IpAddress": null,
+    "origExtendData": null
+}
+[2023-01-12 15:48:17,164][httpRequest.py 29][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-01-12 15:48:17,165][httpRequest.py 30][INFO]: 接口 cookies 参数 ==>> null
+[2023-01-12 15:48:38,207][httpRequest.py 19][INFO]: 请求失败：HTTPConnectionPool(host='172.16.1.84', port=10080): Max retries exceeded with url: /pay/auth (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002950DCE0F10>, 'Connection to 172.16.1.84 timed out. (connect timeout=None)'))
+[2023-01-12 15:48:38,208][test_01_auth.py 10][INFO]: *************** 开始执行用例 ***************
+[2023-01-12 15:48:38,209][sourceLoad.py 27][INFO]: 加载E:\pythonProjects\pytestPro\config\json\auth.json文件..........
+[2023-01-12 15:48:38,209][sourceLoad.py 30][INFO]: E:\pythonProjects\pytestPro\config\json\auth.json文件加载成功..........
+[2023-01-12 15:48:38,209][sourceLoad.py 31][INFO]: 替换指定参数..........
+[2023-01-12 15:48:38,210][httpRequest.py 22][INFO]: 接口请求地址 ==>> http://172.16.1.84:10080/pay/auth
+[2023-01-12 15:48:38,210][httpRequest.py 23][INFO]: 接口请求方式 ==>> POST
+[2023-01-12 15:48:38,210][httpRequest.py 25][INFO]: 接口请求头 ==>> {
+    "bankNo": "00000100",
+    "Content-Type": "application/json",
+    "clientTranNo": "1673509697139",
+    "globalTranNo": "1673509697139"
+}
+[2023-01-12 15:48:38,211][httpRequest.py 26][INFO]: 接口请求 params 参数 ==>> null
+[2023-01-12 15:48:38,212][httpRequest.py 27][INFO]: 接口请求体 data 参数 ==>> null
+[2023-01-12 15:48:38,212][httpRequest.py 28][INFO]: 接口请求体 json 参数 ==>> {
+    "tranNo": "1673509697139",
+    "verifyType": "FOURTH",
+    "certType": "ID_CARD",
+    "certNo": "513022199609261111",
+    "acctType": "DEBIT",
+    "acctNo": "6228480468693141177",
+    "acctName": "吴彦祖",
+    "phone": "18482134818",
+    "acctOpBankCode": null,
+    "cvv2": null,
+    "remark": null,
+    "custNo": "20230112001",
+    "productId": null,
+    "oneLevelChannel": null,
+    "protocolVersion": null,
+    "protocolNo": null,
+    "appType": null,
+    "appName": null,
+    "IpType": null,
+    "IpAddress": null,
+    "origExtendData": null
+}
+[2023-01-12 15:48:38,213][httpRequest.py 29][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-01-12 15:48:38,213][httpRequest.py 30][INFO]: 接口 cookies 参数 ==>> null
+[2023-01-12 15:48:59,242][httpRequest.py 19][INFO]: 请求失败：HTTPConnectionPool(host='172.16.1.84', port=10080): Max retries exceeded with url: /pay/auth (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002950F809110>, 'Connection to 172.16.1.84 timed out. (connect timeout=None)'))
