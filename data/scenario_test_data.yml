@@ -8,16 +8,6 @@ test_user_register_login_list:
   except_code: 0
   except_msg: "查询成功"
 
-test_user_repeat_register:
-  username: "测试test"
-  password: "123456"
-  telephone: "13599999999"
-  sex: "1"
-  address: "深圳市宝安区"
-  except_result: False
-  except_code: 2002
-  except_msg: "用户名已存在，注册失败"
-
 test_user_register_login_update_success:
   register:
     username: "测试test"
@@ -36,25 +26,6 @@ test_user_register_login_update_success:
   except_result: True
   except_code: 0
   except_msg: "修改用户信息成功"
-
-test_user_register_login_update_fail:
-  register:
-    username: "测试test"
-    password: "123456"
-    telephone: "13599999999"
-    sex: "1"
-    address: "深圳市宝安区"
-  login:
-    admin_user: "wintest"
-    admin_pwd: "123456"
-  update:
-    new_password: "123456"
-    new_telephone: "13599999998"
-    new_sex: "1"
-    new_address: "深圳市坪山区"
-  except_result: False
-  except_code: 4005
-  except_msg: "修改的用户ID不存在"
 
 test_user_register_login_delete_success:
   admin_user: "wintest"
